@@ -7,7 +7,7 @@ import {SampleServiceService} from '../services/sample-service.service';
   styleUrls: ['./account-number-formatting.component.scss']
 })
 export class AccountNumberFormattingComponent implements OnInit {
-public result = '';
+public result;
   constructor(private sampleServiceService: SampleServiceService) {
 
   }
