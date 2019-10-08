@@ -24,7 +24,7 @@ export class SampleServiceService {
       sum = sum + nums[i];
 	  even = !even;
     }
-		return (sum % 10) == 0;
+		return sum;
 
   }
 
